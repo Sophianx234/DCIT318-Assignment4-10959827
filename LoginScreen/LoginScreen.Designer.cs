@@ -47,7 +47,7 @@ namespace LoginApp
             this.buttonLogin.UseVisualStyleBackColor = true;
             this.buttonLogin.Click += new System.EventHandler(this.buttonLogin_Click);
             // 
-            // Form1
+            // LoginScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -55,7 +55,7 @@ namespace LoginApp
             this.Controls.Add(this.buttonLogin);
             this.Controls.Add(this.textBoxPassword);
             this.Controls.Add(this.textBoxUsername);
-            this.Name = "Form1";
+            this.Name = "LoginScreen";
             this.Text = "Login Screen";
             this.ResumeLayout(false);
             this.PerformLayout();
